@@ -47,3 +47,14 @@ colorscheme solarized
 map <A-1> :NERDTreeToggle<CR>
 "How can I close vim if the only window left open is a NERDTree?
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+window 设置 vim
+
+1.打开vim文件目录
+
+2.在vimfiles文件夹内创建一个bundle文件夹
+
+3.安装git与curl
+
+4.安装vundle插件管理器：在vimfiles目录下的bundle目录git clone https://github.com/zhenorzz/Vundle.vim.git
+
+:PluginInstall
